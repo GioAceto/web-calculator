@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="calculator-container">
+        <div id="calc-display">
+            <p id="digits"></p>
+        </div>
+        <form>
+            <div id="button-container">
+                <div id="num-field-container">
+                    <input type="text" class="num-field" id="num-one" placeholder="Enter First Number" maxlength="12">
+                    <div id="plus-sign-container">
+                        <p>+</p>
+                    </div>
+                    <input type="text" class="num-field" id="num-two" placeholder="Enter Second Number" maxlength="12">
+                </div>
+                <button id="equals-btn" class="button">=</button>
+            </div>
+            <div id="clear-container">
+                <button id="clear" class="button">Clear</button>
+            </div>
+        </form>
+        <script src="calculator.js"></script>
+    </div>
+    <footer>
+        <h2>Created by Giovanni Aceto</h2>
+    </footer>
+</body>
+
+</html>
