@@ -110,6 +110,7 @@ outline: none;
     align-items: center;
     color: black;
     font-size: 2rem;
+    word-break: break-all;
 }
 
 #clear-container {
