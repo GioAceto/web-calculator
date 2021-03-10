@@ -22,6 +22,8 @@ equalsBtn.addEventListener("click", function (event) {
         digits.innerText = "Error";
     } else if (numOne.value === "" && numTwo.value === "") {
         digits.innerText = "Error";
+    } else if (numOne.value === "" || numTwo.value === "") {
+        digits.innerText = "Error";
         //checks for addition
     } else if (operation.value === "+") {
         let total = parseFloat(numOne.value) + parseFloat(numTwo.value);
