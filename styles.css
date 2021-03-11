@@ -9,8 +9,6 @@ h2 {
     font-weight: lighter;
 }
 
-/* calculator styles */
-
 #calculator-container {
     display: flex;
     flex-direction: column;
@@ -137,8 +135,6 @@ outline: none;
 input:focus {
     outline:none;
 }
-
-/* footer styles */
 
 footer {
     position: fixed;
