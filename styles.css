@@ -9,8 +9,6 @@ h2 {
     font-weight: lighter;
 }
 
-/* calculator styles */
-
 #calculator-container {
     display: flex;
     flex-direction: column;
@@ -42,15 +40,21 @@ h2 {
     font-size: 0.8rem;
 }
 
-#plus-sign-container {
+#operation-container {
     display: flex;
     justify-content: center;
-    padding: 0.5rem 0;
+    padding: 0.7rem 0;
 }
 
-#plus-sign-container p {
-    font-size: 2rem;
-    color: white;
+#operation {
+    width: 2.5rem;
+    border: 3px solid #E6E6E6;
+    border-radius: 8px;
+    font-size: 1.2rem;
+}
+
+#operation:focus {
+outline: none;
 }
 
 #equals-btn {
@@ -96,14 +100,15 @@ h2 {
 }
 
 #digits {
-    width: 100%;
+    margin: 0 auto;
+    width: 95%;
     height: 100%;
-    padding-left: 0.5rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     color: black;
     font-size: 2rem;
+    word-break: break-all;
 }
 
 #clear-container {
@@ -130,8 +135,6 @@ h2 {
 input:focus {
     outline:none;
 }
-
-/* footer styles */
 
 footer {
     position: fixed;
